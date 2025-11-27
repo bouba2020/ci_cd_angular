@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postinstall": "npx webdriver-manager update --standalone false --gecko false",
-    "test:ci": "ng test -c=ci"
+    "test:ci": "ng test -c=ci",
+    "build:prod": "ng build --prod"
   },
   "private": true,
   "dependencies": {
