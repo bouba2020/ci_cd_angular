@@ -45,7 +45,6 @@ jobs:
           name: ci_cd_github-${{ github.run_id }}-${{ github.run_number }}
           path: ./dist/ci_cd_github
 
-jobs:
   Angular_deploy:
     name: Angular Deploy
     runs-on: ubuntu-latest
